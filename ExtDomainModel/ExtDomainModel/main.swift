@@ -21,63 +21,82 @@ open class TestMe {
     }
 }
 
-
 ////////////////////////////////////
 // Money
 //
-public struct Money {
-    public var amount : Double
+
+
+///add protocol////
+protocol CustomStringConvertible {
+    func description() -> String
+}
+
+protocol Mathematics {
+    func add(_ to: Money) -> Money
+    func subtract(_ from: Money) -> Money
+}
+
+public func + (left: Money, right: Money) -> Money {
+    return left.add(right)
+}
+public func - (left: Money, right: Money) -> Money {
+    return left.subtract(right)
+}
+
+
+public struct Money : CustomStringConvertible, Mathematics {
+    public var amount : Int
     public var currency : String
     
     public func convert(_ newCur: String) -> Money {
         var newAmount : Double = 0
         let error : String = "Sorry, only converting to USD, GBP, EUR, and CAN is available at this time."
         if(currency == newCur){
-            newAmount = amount
+            newAmount = Double(amount)
         }else{
             
             switch currency {
             case "USD":
                 switch newCur {
                 case "GBP":
-                    newAmount = amount * 0.5
+                    newAmount = Double(amount) * 0.5
                 case "EUR":
-                    newAmount = amount * 1.5
+                    newAmount = Double(amount) * 1.5
                 case "CAN":
-                    newAmount = amount * 1.25
+                    newAmount = Double(amount) * 1.25
                 default:
                     print(error)
                 }
             case "GBP":
                 switch newCur {
                 case "EUR":
-                    newAmount = amount * 1.5
+                    newAmount = Double(amount) * 1.5
                 case "CAN":
-                    newAmount = amount * 2.5
+                    newAmount = Double(amount) * 2.5
                 case "USD":
-                    newAmount = amount * 2
+                    newAmount = Double(amount) * 2
                 default:
                     print(error)
                 }
             case "EUR":
                 switch newCur {
                 case "GBP":
-                    newAmount = amount / 3
+                    newAmount = Double(amount) / 3
                 case "CAN":
-                    newAmount = amount / 6 * 5
+                    newAmount = Double(amount) / 6 * 5
                 case "USD":
-                    newAmount = amount / 1.5
+                    newAmount = Double(amount) / 1.5
                 default:
                     print(error)
                 }
             case "CAN":
                 switch newCur {
                 case "GBP":
-                    newAmount = amount * 0.8
+                    newAmount = Double(amount) * 0.8
                 case "EUR":
-                    newAmount = amount / 5 * 6
+                    newAmount = Double(amount) / 5 * 6
                 case "USD":
-                    newAmount = amount / 1.25
+                    newAmount = Double(amount) / 1.25
                 default:
                     print(error)
                 }
@@ -86,7 +105,7 @@ public struct Money {
                 print(error)
             }
         }
-        let newMoney = Money(amount: newAmount, currency: newCur)
+        let newMoney = Money(amount: Int(newAmount), currency: newCur)
         return newMoney
     }
     
@@ -105,6 +124,28 @@ public struct Money {
         } else {
             return oldMoney.subtract(self.convert(oldMoney.currency))
         }
+    }
+    public func description() -> String { 
+        return "\(currency)\(amount)"
+    }
+    
+    public init(amount:Int, currency:String){
+        self.currency = currency
+        self.amount = amount
+    }
+}
+public extension Double {
+    public var USD: Money {
+        return Money(amount: Int(self), currency: "USD")
+    }
+    public var EUR: Money {
+        return Money(amount: Int(self), currency: "EUR")
+    }
+    public var GBP: Money {
+        return Money(amount: Int(self), currency: "GBP")
+    }
+    public var CAN: Money {
+        return Money(amount: Int(self), currency: "CAN")
     }
 }
 
@@ -137,6 +178,9 @@ open class Job {
         case .Hourly(let income) : type = JobType.Hourly(income + amount)
         case .Salary(let income) : type = JobType.Salary(Int(Double(income) + amount))
         }
+    }
+    public var description : String {
+        return "\(title)\(type)"
     }
 }
 
@@ -181,6 +225,9 @@ open class Person {
         return "[Person: firstName:\(firstName) lastName:\(lastName) age:\(age) job:\(String(describing: _job)) spouse:\(String(describing: _spouse))]"
         
     }
+    public var description : String {
+        return "\(firstName) \(lastName)"
+    }
 }
 
 
@@ -221,6 +268,9 @@ open class Family {
         }
         
         return totalIncome
+    }
+    public var description : String {
+        return "\(members)"
     }
 }
 
