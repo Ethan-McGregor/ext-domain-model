@@ -7,7 +7,6 @@
 //
 
 import XCTest
-import ExtDomainModel
 
 class MontyTest: XCTestCase {
     
@@ -48,6 +47,15 @@ class MontyTest: XCTestCase {
         XCTAssert((money + otherMoney).currency == resultMoney.currency)
     }
     
+    func testAddingWrong() {
+        let money = Money(amount: 4, currency: "CAN")
+        let otherMoney = Money(amount: 1, currency: "CAN")
+        let resultMoney = Money(amount: 5, currency: "CAN")
+        XCTAssert((money + otherMoney).amount != 100)
+        XCTAssert((money + otherMoney).currency != "USD")
+        XCTAssert((money + otherMoney).amount != resultMoney.amount + 1)
+    }
+    
     func testSubtracting() {
         let money = Money(amount: 10, currency: "USD")
         let otherMoney = Money(amount: 4, currency: "USD")
@@ -58,6 +66,13 @@ class MontyTest: XCTestCase {
         XCTAssert((money - otherMoney).currency == resultMoney.currency)
     }
     
+    func testSubtractingWrong() {
+        let money = Money(amount: 10, currency: "USD")
+        let otherMoney = Money(amount: 4, currency: "USD")
+        XCTAssert((money - otherMoney).amount != 2)
+        XCTAssert((money - otherMoney).currency != "CAN")
+        
+    }
     
     //Testing money works with Doubles
     func testDoubleE() {

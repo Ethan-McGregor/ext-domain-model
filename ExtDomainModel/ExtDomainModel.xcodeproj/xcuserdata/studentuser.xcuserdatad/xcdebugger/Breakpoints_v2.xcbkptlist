@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "unitTestNewFeat/unitTestNewFeat.swift"
-            timestampString = "513721870.626566"
+            timestampString = "513793624.085681"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
             landmarkName = "MontyTest"
             landmarkType = "3">
             <Locations>
@@ -26,7 +26,7 @@
                   moduleName = "unitTestNewFeat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
-                  timestampString = "513730785.131427"
+                  timestampString = "513793796.809555"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -41,11 +41,11 @@
                   moduleName = "unitTestNewFeat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
-                  timestampString = "513730785.134285"
+                  timestampString = "513793796.812281"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
                   offsetFromSymbolStart = "65">
                </Location>
                <Location
@@ -56,7 +56,7 @@
                   moduleName = "unitTestNewFeat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
-                  timestampString = "513730785.136766"
+                  timestampString = "513793796.813907"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -71,11 +71,11 @@
                   moduleName = "unitTestNewFeat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
-                  timestampString = "513730785.138602"
+                  timestampString = "513793796.815352"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
                   offsetFromSymbolStart = "65">
                </Location>
                <Location
@@ -86,7 +86,7 @@
                   moduleName = "unitTestNewFeat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
-                  timestampString = "513730785.140506"
+                  timestampString = "513793796.816781"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -101,11 +101,11 @@
                   moduleName = "unitTestNewFeat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
-                  timestampString = "513730785.142208"
+                  timestampString = "513793796.818418"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
                   offsetFromSymbolStart = "53">
                </Location>
                <Location
@@ -116,7 +116,7 @@
                   moduleName = "unitTestNewFeat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
-                  timestampString = "513730785.144461"
+                  timestampString = "513793796.820961"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -133,13 +133,134 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "unitTestNewFeat/unitTestNewFeat.swift"
-            timestampString = "513731084.588113"
+            timestampString = "513793624.085681"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "testEuro()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "unitTestNewFeat/unitTestNewFeat.swift"
+            timestampString = "513793627.082938"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unitTestNewFeat.MontyTest.__deallocating_deinit"
+                  moduleName = "unitTestNewFeat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
+                  timestampString = "513793796.823073"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unitTestNewFeat.MontyTest.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; unitTestNewFeat.MontyTest"
+                  moduleName = "unitTestNewFeat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
+                  timestampString = "513793796.824463"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unitTestNewFeat.MontyTest.__allocating_init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; unitTestNewFeat.MontyTest"
+                  moduleName = "unitTestNewFeat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
+                  timestampString = "513793796.825865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unitTestNewFeat.MontyTest.init (selector : ObjectiveC.Selector) -&gt; unitTestNewFeat.MontyTest"
+                  moduleName = "unitTestNewFeat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
+                  timestampString = "513793796.827283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unitTestNewFeat.MontyTest.__allocating_init (selector : ObjectiveC.Selector) -&gt; unitTestNewFeat.MontyTest"
+                  moduleName = "unitTestNewFeat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
+                  timestampString = "513793796.828733"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unitTestNewFeat.MontyTest.init () -&gt; unitTestNewFeat.MontyTest"
+                  moduleName = "unitTestNewFeat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
+                  timestampString = "513793796.830501"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unitTestNewFeat.MontyTest.__allocating_init () -&gt; unitTestNewFeat.MontyTest"
+                  moduleName = "unitTestNewFeat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/studentuser/Desktop/ext-domain-model/ExtDomainModel/unitTestNewFeat/unitTestNewFeat.swift"
+                  timestampString = "513793796.832064"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
